@@ -69,7 +69,6 @@ def index():
             const responseHTML = `<p style="color:red;"> >> ${msg}</p><p>${response.data.response}</p>`;
             document.getElementById('responses').innerHTML += responseHTML;
             document.getElementById("message").content += responseHTML;
-<!--            document.getElementById("message").value = ''; -->
           })
           .catch(error => {
             console.error(error);
