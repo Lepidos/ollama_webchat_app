@@ -9,7 +9,7 @@ Simple ollama webchat app
 # Start ollama
 ``$ ollama serve``
 
-# run the script
+# Run the script
 ``$ python ollama_webchat.py``
 
 Enter ``127.0.0.1:5000`` on your web-browser
