@@ -82,12 +82,9 @@ def index():
 
 @app.route('/chat', methods=['POST'])
 def chat():
-#    user_input = request.json['message']
     user_input = request.json['message']
     message = {'role': 'user', 'content': user_input}
     response = client.chat(model='llama3.1', messages=[message])
-#    print(response['message'])
-#    response = model.get_response(user_input)
     return jsonify({'response': response['message']['content']})
 
 if __name__ == '__main__':
