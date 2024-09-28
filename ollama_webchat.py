@@ -6,9 +6,6 @@ from ollama import Client
 
 app = Flask(__name__)
 
-# Initialize the OLLAMA chatbot model
-#model = ollama.Model()
-
 client = Client(host='http://localhost:11434')
 
 @app.route('/')
