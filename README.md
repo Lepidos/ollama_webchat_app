@@ -2,10 +2,10 @@
 Simple ollama webchat app
 
 # dependencies
-``  pip install flask ollama``
+``$ pip install flask ollama``
 
 # Start ollama
-``  ollama serve``
+``$ ollama serve``
 
 # run the script
-``  $ python ollama_webchat.py``
+``$ python ollama_webchat.py``
