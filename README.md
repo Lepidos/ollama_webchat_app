@@ -1,6 +1,7 @@
 # Ollama webchat app
 Simple ollama webchat app
 
+<img src="https://github.com/Lepidos/ollama_webchat_app/blob/main/ChatBot.png">
 # dependencies
 ``$ pip install flask ollama``
 
